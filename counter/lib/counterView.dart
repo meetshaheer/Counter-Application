@@ -14,7 +14,7 @@ class _counterviewState extends State<counterview> {
 
   changeval() {
     setState(() {
-      iszero = !iszero;
+      counter++;
     });
   }
 
@@ -26,7 +26,7 @@ class _counterviewState extends State<counterview> {
         children: [
           Center(
             child: Text(
-              iszero ? "1" : "0",
+              "Value is $counter",
               style: TextStyle(fontSize: 25),
             ),
           ),
