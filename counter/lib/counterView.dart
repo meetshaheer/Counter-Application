@@ -10,14 +10,17 @@ class counterview extends StatefulWidget {
 class _counterviewState extends State<counterview> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
           child: Column(
         children: [
-          Text(
-            "Value is 0",
-            style: TextStyle(fontSize: 25),
-          )
+          Center(
+            child: Text(
+              "Value is 0",
+              style: TextStyle(fontSize: 25),
+            ),
+          ),
+          ElevatedButton(onPressed: () {}, child: Text("Add Values"))
         ],
       )),
     );
