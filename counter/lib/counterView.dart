@@ -27,7 +27,6 @@ class _counterviewState extends State<counterview> {
                 setState(() {
                   counter++;
                 });
-                print(counter);
               },
               child: Text("Add Values"))
         ],
