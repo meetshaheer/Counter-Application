@@ -8,6 +8,8 @@ class counterview extends StatefulWidget {
 }
 
 class _counterviewState extends State<counterview> {
+  int counter = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,11 +18,18 @@ class _counterviewState extends State<counterview> {
         children: [
           Center(
             child: Text(
-              "Value is 0",
+              "Value is $counter",
               style: TextStyle(fontSize: 25),
             ),
           ),
-          ElevatedButton(onPressed: () {}, child: Text("Add Values"))
+          ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  counter++;
+                });
+                print(counter);
+              },
+              child: Text("Add Values"))
         ],
       )),
     );
