@@ -10,12 +10,12 @@ class counterview extends StatefulWidget {
 class _counterviewState extends State<counterview> {
   int counter = 0;
 
+  bool iszero = true;
+
   changeval() {
-    if (counter == 0) {
-      counter = 1;
-    } else {
-      counter = 0;
-    }
+    setState(() {
+      iszero = !iszero;
+    });
   }
 
   @override
@@ -26,11 +26,15 @@ class _counterviewState extends State<counterview> {
         children: [
           Center(
             child: Text(
-              "Value is $counter",
+              iszero ? "1" : "0",
               style: TextStyle(fontSize: 25),
             ),
           ),
-          ElevatedButton(onPressed: () {}, child: Text("Add Values"))
+          ElevatedButton(
+              onPressed: () {
+                changeval();
+              },
+              child: Text("Add Values"))
         ],
       )),
     );
