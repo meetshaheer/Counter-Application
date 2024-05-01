@@ -12,9 +12,15 @@ class _counterviewState extends State<counterview> {
 
   bool iszero = true;
 
-  changeval() {
+  changevalinc() {
     setState(() {
       counter++;
+    });
+  }
+
+  changevaldec() {
+    setState(() {
+      counter--;
     });
   }
 
@@ -32,9 +38,14 @@ class _counterviewState extends State<counterview> {
           ),
           ElevatedButton(
               onPressed: () {
-                changeval();
+                changevalinc();
               },
-              child: Text("Add Values"))
+              child: Text("Increnment")),
+          ElevatedButton(
+              onPressed: () {
+                changevaldec();
+              },
+              child: Text("Decrement"))
         ],
       )),
     );
