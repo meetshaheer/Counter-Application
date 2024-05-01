@@ -20,7 +20,11 @@ class _counterviewState extends State<counterview> {
 
   changevaldec() {
     setState(() {
-      counter--;
+      if (counter == 0) {
+        counter = 0;
+      } else {
+        counter--;
+      }
     });
   }
 
