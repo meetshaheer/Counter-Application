@@ -36,11 +36,7 @@ class UploadTestController extends GetxController {
         final question = questions[i];
         final questionId = firestore.collection('questions').doc().id;
 
-        final questionPath = firestore
-            .collection('test_papers')
-            .doc(testId)
-            .collection('questions')
-            .doc(questionId);
+        final questionPath = firestore.collection('test_papers').doc(testId).collection('questions').doc(questionId);
 
         // Add question
         batch.set(questionPath, {
@@ -49,11 +45,9 @@ class UploadTestController extends GetxController {
         });
 
         // Add answers
-        List<Map<String, String>> answers =
-            List<Map<String, String>>.from(question['answers']);
+        List<Map<String, String>> answers = List<Map<String, String>>.from(question['answers']);
         for (var answer in answers) {
-          batch.set(
-              questionPath.collection('answers').doc(answer['identifier']), {
+          batch.set(questionPath.collection('answers').doc(answer['identifier']), {
             "identifier": answer['identifier'],
             "answer": answer['answer'],
           });
