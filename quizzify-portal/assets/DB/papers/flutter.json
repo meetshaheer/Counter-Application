@@ -1,0 +1,124 @@
+{
+    "id": "ppr002",
+    "title": "Flutter Technical Questions",
+    "image_url": "",
+    "Description": "Basic and technical Flutter Multiple Choice Questions (MCQ) to assess knowledge of Flutter concepts",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "ppr002q001",
+            "question": "What is Flutter?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "A programming language"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "A library for Android development"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "An open-source UI toolkit for cross-platform development"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "A web framework"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q002",
+            "question": "Which language is used to develop apps in Flutter?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Java"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Dart"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Kotlin"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Swift"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr002q003",
+            "question": "What is the use of 'StatefulWidget' in Flutter?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "For immutable widgets"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To build apps without UI"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "For widgets with mutable state"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To manage animations"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q004",
+            "question": "Which widget is used to display images in Flutter?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Text"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Column"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Image"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Container"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr002q005",
+            "question": "What is the purpose of 'setState()' in Flutter?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To rebuild the widget tree with updated data"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To define initial state"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To pass data between widgets"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To navigate between screens"
+                }
+            ],
+            "correct_answer": "A"
+        }
+    ]
+}

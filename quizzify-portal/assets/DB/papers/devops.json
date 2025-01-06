@@ -1,0 +1,124 @@
+{
+    "id": "ppr003",
+    "title": "DevOps Technical Questions",
+    "image_url": "",
+    "Description": "Basic and technical DevOps Multiple Choice Questions (MCQ) to assess knowledge of DevOps principles and tools",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "ppr003q001",
+            "question": "What is the main goal of DevOps?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To improve software delivery speed and collaboration"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To write code"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To manage databases"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To create UI designs"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q002",
+            "question": "Which tool is used for continuous integration in DevOps?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Docker"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Jenkins"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Terraform"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Kubernetes"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q003",
+            "question": "What is the purpose of a Docker container?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To host databases"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To package applications with their dependencies"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To monitor application performance"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To manage load balancers"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q004",
+            "question": "Which DevOps tool is used for infrastructure automation?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Ansible"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Kubernetes"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Git"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Maven"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q005",
+            "question": "Which command is used to check the status of a Kubernetes cluster?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "kubectl get pods"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "kubectl cluster-info"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "kubectl apply"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "docker ps"
+                }
+            ],
+            "correct_answer": "B"
+        }
+    ]
+}

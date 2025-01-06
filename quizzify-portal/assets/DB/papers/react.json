@@ -1,0 +1,239 @@
+{
+    "id": "ppr004",
+    "title": "React Technical Questions",
+    "image_url": "",
+    "Description": "Basic React Multiple Choice Questions (MCQ) to assess knowledge of React concepts",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "ppr004q001",
+            "question": "What is the purpose of React?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To handle server-side routing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To build user interfaces"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To manage databases"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To enhance CSS styling"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q002",
+            "question": "What is JSX?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "A type of JavaScript file"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "A syntax extension for JavaScript"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "A server-side framework"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "A state management library"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q003",
+            "question": "What is the default port for running a React application?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "3000"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "8000"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "8080"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "5000"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q004",
+            "question": "Which hook is used to manage state in a functional component?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "useReducer"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "useContext"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "useState"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "useEffect"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr004q005",
+            "question": "What is the virtual DOM in React?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "A direct representation of the UI"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "A copy of the real DOM kept in memory"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "A debugging tool for React"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "A module for data fetching"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q006",
+            "question": "How do you pass data from a parent to a child component?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Using state"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Using props"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Using context"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Using refs"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q007",
+            "question": "What does the 'key' prop do in React?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Provides a unique identifier for list items"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Defines the initial state of a component"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Allows inline styling"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Triggers re-rendering of components"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q008",
+            "question": "Which method is used to fetch data in a class component?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "componentDidMount"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "componentWillUpdate"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "render"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "getDerivedStateFromProps"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr004q009",
+            "question": "Which lifecycle method is called before a component is unmounted?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "componentDidUpdate"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "componentWillUnmount"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "componentDidMount"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "shouldComponentUpdate"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr004q010",
+            "question": "What is React.memo used for?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Optimizing functional components by memoizing the result"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Managing component state"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Fetching data from APIs"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Styling components"
+                }
+            ],
+            "correct_answer": "A"
+        }
+    ]
+}

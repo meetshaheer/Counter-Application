@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"quizify-portal","appId":"1:1092199789952:android:6ef80984b1f302e5697d65","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"quizify-portal","configurations":{"android":"1:1092199789952:android:6ef80984b1f302e5697d65","ios":"1:1092199789952:ios:cebc08397f68d1ca697d65"}}}}}}

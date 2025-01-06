@@ -1,0 +1,239 @@
+{
+    "id": "ppr001",
+    "title": "Software Quality Assurance (SQA) Questions",
+    "image_url": "",
+    "Description": "Basic and technical Software Quality Assurance Multiple Choice Questions (MCQ) to assess knowledge of software testing and quality assurance concepts",
+    "time_seconds": 900,
+    "questions": [
+        {
+            "id": "ppr001q001",
+            "question": "What is the primary goal of Software Quality Assurance (SQA)?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To find bugs in the software"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To ensure that the software meets the required quality standards"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To develop the software"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To manage project timelines"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q002",
+            "question": "Which of the following is NOT a type of software testing?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Unit Testing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Integration Testing"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Performance Testing"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Version Control Testing"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr001q003",
+            "question": "What is regression testing?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Testing to ensure new features work correctly"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Re-running tests to ensure existing functionality is not broken"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Testing the performance of an application"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Testing in a production environment"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q004",
+            "question": "Which type of testing focuses on the user's experience with the application?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "System Testing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Unit Testing"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Usability Testing"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Integration Testing"
+                }
+            ],
+            "correct_answer": "C"
+        },
+        {
+            "id": "ppr001q005",
+            "question": "What does a Test Case describe?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "A bug found during testing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "A set of steps to verify a particular functionality of the application"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "The overall plan for the software project"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "The documentation for the software"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q006",
+            "question": "Which of the following tools is commonly used for test automation?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "JIRA"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Selenium"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Git"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Postman"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q007",
+            "question": "What is the purpose of a Test Plan?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To identify bugs in the software"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To define the scope, approach, and objectives of the testing effort"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To track software versions"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To write code for the application"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q008",
+            "question": "Which of the following is a non-functional testing type?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Smoke Testing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Performance Testing"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Unit Testing"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Integration Testing"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q009",
+            "question": "What is the primary purpose of defect tracking?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "To prioritize development tasks"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "To document and track software bugs and issues"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "To manage source code"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "To manage test environments"
+                }
+            ],
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr001q010",
+            "question": "Which testing phase ensures the software is ready for release?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Unit Testing"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "System Testing"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Acceptance Testing"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Integration Testing"
+                }
+            ],
+            "correct_answer": "C"
+        }
+    ]
+}
